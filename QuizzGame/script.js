@@ -365,7 +365,7 @@ function checkAnswer(selectedOption) {
     score++;
   }
 
-  // Move to the next question or end the quiz if all questions are answered
+  // move to the next question or end the quiz if all questions are answered
   currentQuestionIndex++;
 
   if (currentQuestionIndex < selectedQuestions.length) {
