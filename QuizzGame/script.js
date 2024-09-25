@@ -375,7 +375,7 @@ function checkAnswer(selectedOption) {
   }
 }
 
-// Function to start the timer
+// function to start the timer
 function startTimer() {
   timerInterval = setInterval(function() {
     timeLeft--;
